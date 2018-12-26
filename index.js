@@ -14,6 +14,18 @@ function divide(a,b) {
   return a/b;
 }
 
-function Introduction(n) {
+function inc(n) {
   return n++;
+}
+
+function dec(n) {
+  return n--;
+}
+
+function makeInt(n) {
+  return parseInt(n,10);
+}
+
+function makeInt(n) {
+  return parseInt(n);
 }
